@@ -65,9 +65,9 @@ function PaginaPacientes() {
                     console.error(error);
                 }
             }}>
-                <input type="text" name="nombre" placeholder="Nombre" required />
-                <input type="text" name="localidad" placeholder="Localidad" required />
-                <input type="date" name="fecha_nacimiento" required />
+                <input type="text" name="nombre" placeholder="Nombre..." required />
+                <input type="text" name="localidad" placeholder="Localidad..." required />
+                <input type="date" name="fecha_nacimiento" placeholder="Fecha de nacimiento..." required />
                 <button className="text-blue-500">Insertar</button>
             </form>
 

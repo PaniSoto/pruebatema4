@@ -30,13 +30,13 @@ async function PaginaPacientes() {
 
         <>
             <form action={insertarPaciente}>
-                <input type="text" name="nombre" />
-                <input type="text" name="localidad" />
-                <input type="date" name="fecha_nacimiento" />
+                <input type="text" name="nombre" placeholder="Nombre..." />
+                <input type="text" name="localidad" placeholder="Localidad..." />
+                <input type="date" name="fecha_nacimiento" placeholder="Fecha de nacimiento..." />
                 <button>Insertar</button>
             </form>
 
-            <div className=" flex flex-col pl-[50%] pt-[200px] gap-3">
+            <div>
                 Lista de pacientes
                 {
                     rows.map(paciente=>

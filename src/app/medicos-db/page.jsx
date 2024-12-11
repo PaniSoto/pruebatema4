@@ -28,9 +28,9 @@ async function PaginaMedicos() {
 
         <>
             <form action={insertarMedico}>
-                <input type="text" name="nombre" />
-                <input type="text" name="especialidad" />
-                <input type="text" name="perfil" />
+                <input type="text" placeholder="Nombre..." name="nombre" />
+                <input type="text" placeholder="Especialidad..." name="especialidad" />
+                <input type="text" placeholder="Perfil..." name="perfil" />
                 <button>Insertar</button>
             </form>
 

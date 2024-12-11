@@ -65,9 +65,9 @@ function PaginaMedicos() {
                     console.error(error);
                 }
             }}>
-                <input type="text" name="nombre" placeholder="Nombre" required />
-                <input type="text" name="especialidad" placeholder="Especialidad" required />
-                <input type="text" name="perfil" required />
+                <input type="text" name="nombre" placeholder="Nombre..." required />
+                <input type="text" name="especialidad" placeholder="Especialidad..." required />
+                <input type="text" name="perfil" placeholder="Perfil..." required />
                 <button className="text-blue-500">Insertar</button>
             </form>
 
