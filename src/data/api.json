@@ -1,0 +1,48 @@
+{
+  "pacientes": [
+    {
+      "id": "1",
+      "nombre": "Juan",
+      "localidad": "Espejo",
+      "fecha_nacimiento": "2000-01-21",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "2",
+      "nombre": "Miguel",
+      "localidad": "Aguilar",
+      "fecha_nacimiento": "2002-06-11",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "3",
+      "nombre": "Ana",
+      "localidad": "Monstilla",
+      "fecha_nacimiento": "2003-03-05",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    }
+  ],
+  "medicos": [
+    {
+      "id": "1",
+      "nombre": "Marco",
+      "especialidad": "Atencion primaria",
+      "perfil": "Residente",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "2",
+      "nombre": "Pedro",
+      "especialidad": "Traumatólogo",
+      "perfil": "Especialista",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "3",
+      "nombre": "Isabel",
+      "especialidad": "Dermatólogo",
+      "perfil": "Residente",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    }
+  ]
+}
