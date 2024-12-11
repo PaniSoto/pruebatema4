@@ -9,7 +9,6 @@ async function obtenerPaciente(id) {
 async function PaginaPaciente({ params }) {
     const { id } = params;
     
-    // Llama a la API externa para obtener los datos del alumno
     const paciente = await obtenerPaciente(id);
 
     return (
