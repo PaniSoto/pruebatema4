@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
 
-const EXPIRE_TIME = 10 * 60 * 1000; // ms (5 minutos)
+const EXPIRE_TIME = 10 * 60 * 1000; 
 
 export async function getCookie(name) {
   const cookieStore = await cookies()      // IMPORTANTE: await cookies(), a partir de NextJS 15

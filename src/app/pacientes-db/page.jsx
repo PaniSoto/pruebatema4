@@ -36,7 +36,7 @@ async function PaginaPacientes() {
                 <button>Insertar</button>
             </form>
 
-            <div>
+            <div className=" flex flex-col pl-[50%] pt-[200px] gap-3">
                 Lista de pacientes
                 {
                     rows.map(paciente=>
